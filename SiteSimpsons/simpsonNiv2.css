@@ -1,0 +1,156 @@
+/*ALL*/
+* {
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;
+}
+
+/*BODY*/
+body {
+    background-color: #ffdb58;
+    font-size: 15px;
+    font-family:Arial, sans-serif;
+    margin: 0;
+}
+
+#wrapper{
+    max-width: 1024px;
+    margin: auto;
+    background-color: white;
+}
+body h1 {
+    color: #ffdb58;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-left: 1em;
+    
+}
+/*HEADER*/
+header h1 {
+    background-color:#4682B4;
+    color: #FFFAFA;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px;
+}
+#simpsons {
+    width: 100%;
+    vertical-align: bottom;
+    border-top: outset 1px #D0D0D0;
+    border-bottom: outset 2px #fff;
+}
+/*nav*/
+nav {
+    background-color: #4682B4;
+    color: #FFFAFA;
+    display: flex;
+    padding: 1em 0em;
+    justify-content: center;
+    border-bottom: dashed 2px;
+    
+    
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.5em;
+}
+
+/*MAIN*/
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+    padding: 1em;
+}
+
+/*galerie*/
+#galerie {
+    display: flex;
+}
+#galerie div img {
+    width: 95%;
+    border: 1px solid black;  
+}
+.img {
+    
+    
+    
+}
+
+/*article*/
+article {
+    padding: 1em;
+    flex: 3;
+}
+article p {
+    text-align: justify;
+    margin-top: 0;
+}
+    
+
+/*aside*/
+aside {
+    background-color: #4682B4;
+    padding: 0.5em 1em 0.5em 1em;
+    text-align: center;
+  
+    flex: 1;
+    
+}
+aside h2 {
+    color:#FFFAFA;
+    margin-bottom: 0;
+    
+}
+aside h3 {
+    color: #FFFAFA ;
+    font-style:  italic;
+    font-weight: normal;
+    margin: 0;
+    font-size: 14px;
+
+}
+aside p {
+    color: #FFFAFA;
+    text-align: justify;
+}
+
+#matt {
+    width: 100%;
+    border: 1px solid white;
+}
+
+
+
+/*FOOTER*/
+footer {
+    background-color:#4169E1;
+}
+footer p {
+    color: #FFFAFA;
+    text-align: center;
+    margin: 0 8em 0 8em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+/*responsive*/
+
+@media screen and (max-width:800px){
+    main {
+        flex-direction:column;
+         }
+}
+
+@media screen and (max-width:630px){
+    nav{
+        flex-direction:column;
+        text-align: center;
+        line-height: 150%;
+        }
+}
